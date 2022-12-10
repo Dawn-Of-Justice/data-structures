@@ -1,9 +1,10 @@
 #include<stdio.h>
-#define size 20
+#define size 20 //Size of the array
 int queue[size];
 int front = -1;
 int rear = -1;
 
+//Inserting data
 void enqueue(int x){
     if(rear==size-1){
         printf("Queue Overflow\n");
@@ -16,6 +17,7 @@ void enqueue(int x){
     }
 }
 
+//Deleting data 
 void dequeue(){
     if(front == -1 && rear == -1){
         printf("Queue Underflow\n");
