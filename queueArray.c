@@ -20,6 +20,7 @@ void dequeue(){
     if(front == -1 && rear == -1){
         printf("Queue Underflow\n");
     }else if(front == rear){
+        printf("Deleted %d from front\n",queue[front]);
         front = rear = -1;
     }else{
         printf("Deleted %d from front\n",queue[front]);
