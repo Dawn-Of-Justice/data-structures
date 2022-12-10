@@ -19,12 +19,14 @@ void enqueue(int x){
 void dequeue(){
     if(front == -1 && rear == -1){
         printf("Queue Underflow\n");
-    }else if(front == rear){
+    }
+    else{
         printf("Deleted %d from front\n",queue[front]);
-        front = rear = -1;
-    }else{
-        printf("Deleted %d from front\n",queue[front]);
-        front++;
+        if(front == rear){
+            front = rear = -1;
+        }else{
+            front++;
+        }
     }
 }
 
