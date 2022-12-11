@@ -2,6 +2,7 @@
 #include<stdlib.h>
 #include<string.h>
 
+//Adding students with random roll numbers and sorting it via rollno, This code doesn't check for same roll number input currently.
 struct node {
     int rollno;
     char name[20];
