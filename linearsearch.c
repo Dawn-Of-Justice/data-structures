@@ -1,3 +1,4 @@
+//Using linear search in c
 #include<stdio.h>
 
 void linearsearch(int);
