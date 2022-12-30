@@ -1,3 +1,4 @@
+//Circular queue with size 5
 #include<stdio.h>
 #define size 5 //Size of the array
 int queue[size];
