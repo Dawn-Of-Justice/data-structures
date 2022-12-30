@@ -1,3 +1,4 @@
+//Program which implements single variable polynomial additon using linked list
 #include<stdio.h>
 #include<stdlib.h>
 
