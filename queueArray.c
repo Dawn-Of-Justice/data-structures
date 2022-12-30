@@ -1,3 +1,4 @@
+//Implementing queue with array
 #include<stdio.h>
 #define size 20 //Size of the array
 int queue[size];
