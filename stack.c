@@ -1,3 +1,4 @@
+//Implementing stack
 #include<stdio.h>
 #define size 50 
 int stack[size];
