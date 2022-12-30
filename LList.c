@@ -1,3 +1,4 @@
+//Program to insert elements and delete elements at the beginning and the end, Also to display them
 #include<stdio.h>
 #include<stdlib.h>
 struct node{
