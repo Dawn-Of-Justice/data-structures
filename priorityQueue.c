@@ -1,3 +1,4 @@
+//Program to implement priority queue, which adds elements from the rear according to priority and deletes element from the front of the queue.
 #include<stdio.h>
 #include<stdlib.h>
 
