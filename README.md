@@ -11,6 +11,7 @@ Simple and basic programs to get familiar with C programming
     priorityQueue.c - Program to implement priority queue, which adds elements from the rear according to priority and deletes element from the front of the queue.
     linearsearch.c - Using linear search in c
     circularQueue.c - Circular queue with size 5
+    infixPostfix.c - Program to convert an expression from infix to postfix and evaluate the expression
     LList.c - Program to insert elements and delete elements at the beginning and the end, Also to display them
     LLPolyMulti.c - Program which implements single variable polynomial multiplication
     
