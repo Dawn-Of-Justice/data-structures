@@ -8,7 +8,6 @@
 char array[size];
 char stack[size];
 char evaluate[size];
-int number[size];
 int TOS = -1,i=0,j=0;
 
 void Push(char X){
@@ -34,6 +33,7 @@ char ReadSymbol(char array[]){
   return '\0';
 }
 
+//used to display the expression in the console
 void Output(char x){
   if (j > 0 && isdigit(evaluate[j - 1])) {
     printf("");
@@ -91,6 +91,7 @@ int ICP(char x){
   }
 }
 
+//Used to evaluate the expression
 int Result(int y, int x, char op){
   switch (op)
   {
@@ -164,7 +165,6 @@ void main(){
     }
   }
   printf("\n");
-
 
   //Computing the value of the expression
   char endchar = '#';
